@@ -11,7 +11,7 @@ window.fbAsyncInit = function () {
         xfbml: true,
         version: 'v2.7'
     });
-    jQuery.get("js/page_token", function (data) {
+    jQuery.get("assets/js/page_token", function (data) {
         FB.api('/722407097846107', {
             fields: 'posts',
             access_token: data
