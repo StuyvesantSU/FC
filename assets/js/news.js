@@ -7,7 +7,7 @@ function escapeHTML(string) {
 
 window.fbAsyncInit = function () {
     FB.init({
-        appId: '197210964033736',
+        appId: '1292281667451957',
         xfbml: true,
         version: 'v2.7'
     });
